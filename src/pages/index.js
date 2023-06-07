@@ -1,5 +1,10 @@
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import {
+  AiFillTwitterCircle,
+  AiFillLinkedin,
+  AiFillGithub,
+} from "react-icons/ai";
 
 export default function Home() {
   return (
@@ -28,13 +33,18 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div>
+          <div className="text-center p-10 ">
             <h2>Momoore Sontan</h2>
             <h3>Backend Web Developer</h3>
             <p>
               Responsible for server-side web application logic and integration
               of the work front-end developers do.
             </p>
+          </div>
+          <div>
+            <AiFillTwitterCircle />
+            <AiFillLinkedin />
+            <AiFillGithub />
           </div>
         </section>
       </main>
