@@ -6,7 +6,7 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 import Image from "next/image";
-import momo from "../../public/momo1.jpg";
+import momo from "../../public/momo2.jpeg";
 
 export default function Home() {
   return (
@@ -54,7 +54,9 @@ export default function Home() {
             <AiFillLinkedin />
             <AiFillGithub />
           </div>
-          <div></div>
+          <div className="relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80">
+            <Image src={momo} className="w-80 h-80" />
+          </div>
         </section>
       </main>
     </>
