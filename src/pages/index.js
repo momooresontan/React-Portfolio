@@ -54,8 +54,18 @@ export default function Home() {
             <AiFillLinkedin />
             <AiFillGithub />
           </div>
-          <div className="relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80">
-            <Image src={momo} className="w-80 h-80" />
+          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20">
+            <Image
+              src={momo}
+              className="w-80 h-80 rounded-full"
+              layout="fill"
+            />
+          </div>
+        </section>
+        <section>
+          <div>
+            <h3 className="text-3xl py-1">Services I Offer</h3>
+            <p className="text-md py-2 leading-8 text-gray-800"></p>
           </div>
         </section>
       </main>
