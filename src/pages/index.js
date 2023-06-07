@@ -65,7 +65,12 @@ export default function Home() {
         <section>
           <div>
             <h3 className="text-3xl py-1">Services I Offer</h3>
-            <p className="text-md py-2 leading-8 text-gray-800"></p>
+            <p className="text-md py-2 leading-8 text-gray-800">
+              Since starting my journey as a backend web developer, I have
+              learnt and worked on various projects in{" "}
+              <span className="text-teal-500">Node.js</span> and{" "}
+              <span className="text-teal-500">Nest.js</span>.
+            </p>
           </div>
         </section>
       </main>
