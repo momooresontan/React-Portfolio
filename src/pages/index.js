@@ -7,7 +7,9 @@ import {
 } from "react-icons/ai";
 import Image from "next/image";
 import momo from "../../public/momo2.jpeg";
-import design from "../../public/design.png"
+import design from "../../public/design.png";
+import code from "../../public/code.png";
+import consulting from "../../public/consulting.png";
 
 export default function Home() {
   return (
@@ -75,7 +77,7 @@ export default function Home() {
           </div>
           <div>
             <div>
-
+              <Image src={design} width={100} height={100} />
             </div>
           </div>
         </section>
