@@ -7,6 +7,7 @@ import {
 } from "react-icons/ai";
 import Image from "next/image";
 import momo from "../../public/momo2.jpeg";
+import design from "../../public/design.png"
 
 export default function Home() {
   return (
@@ -71,6 +72,11 @@ export default function Home() {
               <span className="text-teal-500">Node.js</span> and{" "}
               <span className="text-teal-500">Nest.js</span>.
             </p>
+          </div>
+          <div>
+            <div>
+
+            </div>
           </div>
         </section>
       </main>
