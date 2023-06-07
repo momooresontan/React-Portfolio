@@ -10,6 +10,7 @@ import momo from "../../public/momo2.jpeg";
 import design from "../../public/design.png";
 import code from "../../public/code.png";
 import consulting from "../../public/consulting.png";
+import rest from "../../public/3d rest.png";
 
 export default function Home() {
   return (
@@ -66,7 +67,7 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <div>
+          <div className="text-center">
             <h3 className="text-3xl py-1">Services I Offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
               Since starting my journey as a backend web developer, I have
@@ -77,13 +78,8 @@ export default function Home() {
             </p>
           </div>
           <div>
-            <div className="text-center shadow-lg">
-              <Image
-                src={design}
-                width={100}
-                height={100}
-                className="mx-auto"
-              />
+            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+              <Image src={rest} width={180} height={180} className="mx-auto" />
               <h3 className="text-lg font-medium pt-8 pb-2">
                 Creating RESTful APIs
               </h3>
