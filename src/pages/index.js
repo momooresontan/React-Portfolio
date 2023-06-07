@@ -5,6 +5,8 @@ import {
   AiFillLinkedin,
   AiFillGithub,
 } from "react-icons/ai";
+import Image from "next/image";
+import momo from "../../public/momo1.jpg";
 
 export default function Home() {
   return (
@@ -38,16 +40,21 @@ export default function Home() {
               Momoore Sontan
             </h2>
             <h3 className="text-2xl py-2">Backend Web Developer</h3>
-            <p className="text-md py-5 leading-8">
+            <p className="text-md py-5 leading-8 text-gray-800">
               Responsible for server-side web application logic and integration
-              of the work front-end developers do.
+              of the work front-end developers do. I am proficient in utilizing
+              the Node.js runtime environment to build scalable and efficient
+              web applications. With expertise in server-side programming and
+              web development, I have a strong command over JavaScript, the
+              primary language used in Node.js development.
             </p>
           </div>
-          <div>
+          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
             <AiFillTwitterCircle />
             <AiFillLinkedin />
             <AiFillGithub />
           </div>
+          <div></div>
         </section>
       </main>
     </>
