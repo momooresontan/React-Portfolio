@@ -71,13 +71,31 @@ export default function Home() {
             <p className="text-md py-2 leading-8 text-gray-800">
               Since starting my journey as a backend web developer, I have
               learnt and worked on various projects in{" "}
-              <span className="text-teal-500">Node.js</span> and{" "}
+              <span className="text-teal-500">Node.js</span> ,{" "}
+              <span className="text-teal-500">Express.js</span> and{" "}
               <span className="text-teal-500">Nest.js</span>.
             </p>
           </div>
           <div>
-            <div>
-              <Image src={design} width={100} height={100} />
+            <div className="text-center shadow-lg">
+              <Image
+                src={design}
+                width={100}
+                height={100}
+                className="mx-auto"
+              />
+              <h3 className="text-lg font-medium pt-8 pb-2">
+                Creating RESTful APIs
+              </h3>
+              <p className="py-2">
+                I have a deep understanding of RESTful API design principles and
+                can develop robust APIs using Node.js and Nest.js.
+              </p>
+              <h4 className="py-4 text-teal-600">Tools I use</h4>
+              <p className="text-gray-800 py-1">POSTMAN</p>
+              <p className="text-gray-800 py-1">VSCODE</p>
+              <p className="text-gray-800 py-1">MongoDB Compass</p>
+              <p className="text-gray-800 py-1">XAMPP</p>
             </div>
           </div>
         </section>
