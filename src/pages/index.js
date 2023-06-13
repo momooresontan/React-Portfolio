@@ -139,6 +139,20 @@ export default function Home() {
               <span className="text-teal-500">Nest.js</span>.
             </p>
           </div>
+          <div>
+            <div>
+              <Image src={sch} />
+            </div>
+            <div>
+              <Image src={tour} />
+            </div>
+            <div>
+              <Image src={ums} />
+            </div>
+            <div>
+              <Image src={st} />
+            </div>
+          </div>
         </section>
       </main>
     </>
