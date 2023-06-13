@@ -83,7 +83,7 @@ export default function Home() {
               <span className="text-teal-500">Nest.js</span>.
             </p>
           </div>
-          <div>
+          <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
               <Image src={rest} width={180} height={180} className="mx-auto" />
               <h3 className="text-lg font-medium pt-8 pb-2">API Development</h3>
