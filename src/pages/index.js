@@ -6,15 +6,16 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 import Image from "next/image";
-import momo from "../../public/momo2.jpeg";
 import design from "../../public/design.png";
-import code from "../../public/code.png";
 import consulting from "../../public/consulting.png";
-import rest from "../../public/3d rest.png";
 import node from "../../public/node.png";
-import sch from "../../public/sch.png";
+import momo from "../../public/momo2.jpeg";
+import code from "../../public/code.png";
+import rest from "../../public/3d rest.png";
+import sch from "../../public/sch1.png";
 import tour from "../../public/tour.png";
-import st from "../../public/st.png";
+import st from "../../public/st1.png";
+import ums from "../../public/ums.png";
 
 export default function Home() {
   return (
@@ -26,7 +27,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-white px-10 ">
+      <main className="bg-white px-10 md:px-20 lg:px-40">
         <section className=" min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-xl font-burtons">MoMo</h1>
@@ -45,11 +46,11 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10 ">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium">
-              Momoore Sontan
+            <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
+              Momooreoluwa Sontan
             </h2>
-            <h3 className="text-2xl py-2">Backend Web Developer</h3>
-            <p className="text-md py-5 leading-8 text-gray-800">
+            <h3 className="text-2xl py-2 md:text-3xl">Backend Web Developer</h3>
+            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl">
               Responsible for server-side web application logic and integration
               of the work front-end developers do. I am proficient in utilizing
               the Node.js runtime environment to build scalable and efficient
