@@ -12,10 +12,10 @@ import node from "../../public/node.png";
 import momo from "../../public/momo2.jpeg";
 import code from "../../public/code.png";
 import rest from "../../public/3d rest.png";
-import sch from "../../public/sch1.png";
+import sch from "../../public/sch3.png";
 import tour from "../../public/tour.png";
-import st from "../../public/st1.png";
-import ums from "../../public/ums.png";
+import st from "../../public/st2.png";
+import ums from "../../public/ums3.png";
 
 export default function Home() {
   return (
@@ -141,16 +141,22 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="bg-gradient-to-b from-teal-500 w-80 h-80">
-              <Image src={sch} className="w-80 h-80" />
+            <div className="basis-1/3 flex-1">
+              <Image
+                src={sch}
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+              />
             </div>
-            <div className="bg-gradient-to-b from-teal-500">
+            <div className="basis-1/3 flex-1">
               <Image src={tour} />
             </div>
-            <div className="bg-gradient-to-b from-teal-500">
+            <div className="basis-1/3 flex-1">
               <Image src={ums} />
             </div>
-            <div className="bg-gradient-to-b from-teal-500">
+            <div className="basis-1/3 flex-1">
               <Image src={st} />
             </div>
           </div>
