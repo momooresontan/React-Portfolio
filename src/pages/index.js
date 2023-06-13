@@ -50,7 +50,7 @@ export default function Home() {
               Momooreoluwa Sontan
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl">Backend Web Developer</h3>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl">
+            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto">
               Responsible for server-side web application logic and integration
               of the work front-end developers do. I am proficient in utilizing
               the Node.js runtime environment to build scalable and efficient
@@ -64,7 +64,7 @@ export default function Home() {
             <AiFillLinkedin />
             <AiFillGithub />
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20">
+          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 md:h-96 md:w-96">
             <Image
               src={momo}
               className="w-80 h-80 rounded-full"
