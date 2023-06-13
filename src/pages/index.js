@@ -11,6 +11,10 @@ import design from "../../public/design.png";
 import code from "../../public/code.png";
 import consulting from "../../public/consulting.png";
 import rest from "../../public/3d rest.png";
+import node from "../../public/node.png";
+import sch from "../../public/sch.png";
+import tour from "../../public/tour.png";
+import st from "../../public/st.png";
 
 export default function Home() {
   return (
@@ -21,6 +25,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <main className="bg-white px-10 ">
         <section className=" min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
