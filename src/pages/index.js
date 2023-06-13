@@ -140,17 +140,17 @@ export default function Home() {
               <span className="text-teal-500">Nest.js</span>.
             </p>
           </div>
-          <div>
-            <div>
-              <Image src={sch} />
+          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className="bg-gradient-to-b from-teal-500 w-80 h-80">
+              <Image src={sch} className="w-80 h-80" />
             </div>
-            <div>
+            <div className="bg-gradient-to-b from-teal-500">
               <Image src={tour} />
             </div>
-            <div>
+            <div className="bg-gradient-to-b from-teal-500">
               <Image src={ums} />
             </div>
-            <div>
+            <div className="bg-gradient-to-b from-teal-500">
               <Image src={st} />
             </div>
           </div>
