@@ -29,7 +29,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-white px-10 md:px-20 lg:px-40">
+      <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className=" min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-xl font-burtons">MoMo</h1>
@@ -89,7 +89,7 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image src={rest} width={180} height={180} className="mx-auto" />
               <h3 className="text-lg font-medium pt-8 pb-2">API Development</h3>
               <p className="py-2">
@@ -102,7 +102,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">MongoDB Compass</p>
               <p className="text-gray-800 py-1">XAMPP</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image src={rest} width={180} height={180} className="mx-auto" />
               <h3 className="text-lg font-medium pt-8 pb-2">
                 Server-side Development
@@ -117,7 +117,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">MongoDB Compass</p>
               <p className="text-gray-800 py-1">XAMPP</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image src={code} width={180} height={180} className="mx-auto" />
               <h3 className="text-lg font-medium pt-8 pb-2">
                 Web Application Development
@@ -146,7 +146,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 bg-gradient-to-b from-teal-500">
+            <div className="basis-1/3 flex-1 bg-gradient-to-b from-teal-500 dark:bg-white">
               <Image
                 src={sch}
                 className="rounded-lg object-cover"
